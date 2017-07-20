@@ -98,7 +98,7 @@ This RPC would be the standardized SDL interface for haptic events, and would be
         Array of spatial data structures that represent the locations of all user controls present on the HMI. 
         This data should be updated if/when the application presents a new screen.
         When a request is sent, if successful, it will replace all spatial data previously sent through RPC.
-        Avoidance of doubt, when an empty HapticSpatialData, it will be clear all spatial data previously sent through RPC.
+        If an empty array is sent, the existing spatial data will be cleared
       </description>
     </param>
 </function>
